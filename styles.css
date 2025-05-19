@@ -1,0 +1,25 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+/* Container da imagem */
+.image-container {
+  width: 100%;
+}
+
+/* Imagem responsiva (largura 100%), altura proporcional */
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
